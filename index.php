@@ -69,102 +69,9 @@
 		</div>
 	</div>
 </div>
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div style="background-color: red;">
-				<h2>Spells</h2>
-			</div>	
-		</div>
-		<div class="col-md-12">
-			<div class="col-md-12">
-			<div class="text-center">
-				<h3>Can use anytime</h3>
-				<span>Doesn't take up a spell slot</span>
-				<hr>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<h4>Disguise Self</h4>
-					<p>1st-level illusion</p>
-					<ul style="list-style: none">
-						<li>Casting Time: 1 action </li>
-						<li>Range: Self </li>
-						<li>Components: V</li>
-						<li>Spell  Duration: 1 hour</li>
-					</ul>
-					<p>You make yourself – <strong>including your clothing, armor, weapons, and other belongings on your person </strong> – look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between...</p>
-					<!-- BUTTON TRIGGER MODAL -->
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#disguiseSelf">
-					  About
-					</button>
-					<!-- END BUTTON TRIGGER MODAL -->
-
-					<!-- MODAL -->
-					<div class="modal fade" id="disguiseSelf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-					  <div class="modal-dialog" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalLabel">Disguise Self Information</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        <p>You make yourself – <strong>including your clothing, armor, weapons, and other belongings on your person </strong> – look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. <i>You can’t change your body type, so you must adopt a form that has the same basic arrangement of limbs.</i> Otherwise, the extent of the illusion is up to you.</p>
-				    		<p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair. To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- END MODAL -->
-				</div>
-				<div class="col-md-4">
-
-
-					<h4>Rope Trick</h4>
-					<p>2nd-level transmutation</p>
-					<ul style="list-style: none">
-						<li>Casting Time: 1 action</li>
-						<li>Range: Self </li>
-						<li>Components: V</li>
-						<li>Spell  Duration: 1 hour</li>
-					</ul>
-					<p>You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends. The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures.</p>
-					<!-- BUTTON TRIGGER MODAL -->
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ropeTrick">
-					  About
-					</button>
-					<!-- END BUTTON TRIGGER MODAL -->
-
-					<!-- MODAL -->
-					<div class="modal fade" id="ropeTrick" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-					  <div class="modal-dialog" role="document">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h5 class="modal-title" id="exampleModalLabel">Disguise Self Information</h5>
-					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					          <span aria-hidden="true">&times;</span>
-					        </button>
-					      </div>
-					      <div class="modal-body">
-					        <p>You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends. The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.</p>	
-							<p>Attacks and spells can’t cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope. Anything inside the extradimensional space drops out when the spell ends.</p>
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-					<!-- END MODAL -->
-				</div>
-			</div>
-		</div>
-		</div>
+<div class="band">
+	<div class="container">
+		<?php include('resources/spells.php'); ?>
 	</div>
 </div>
 
